@@ -1,0 +1,7 @@
+{
+    "address": ":8888",
+    "upstream": {
+        "local1.test.com": "127.0.0.1:8443",
+        "local2.test.com": "127.0.0.1:9443"
+    }
+}

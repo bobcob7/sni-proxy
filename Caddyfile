@@ -1,0 +1,8 @@
+:8443 {
+    respond "Hello Server #1"
+    tls /server1.crt /server1.key
+}
+:9443 {
+    respond "Hello Server #2"
+    tls /server2.crt /server2.key
+}
